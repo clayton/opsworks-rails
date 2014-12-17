@@ -48,6 +48,6 @@ test:
 #
 production:
   <<: *default
-  database: opsworks-rails_production
-  username: opsworks-rails
-  password: <%= ENV['OPSWORKS-RAILS_DATABASE_PASSWORD'] %>
+  database: opsworks_rails_production
+  username: root
+  password: <%= ENV['OPSWORKS_RAILS_DATABASE_PASSWORD'] %>
